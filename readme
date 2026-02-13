@@ -1,1 +1,71 @@
+🎯 What Is the Purpose of This Project?
+🔹 Core Purpose
 
+This project demonstrates how to build a Retrieval-Augmented Generation (RAG) system that can answer questions from a research paper.
+
+In simple terms:
+
+👉 Instead of the model guessing answers, it retrieves relevant parts of the document first, then generates a grounded answer.
+
+🧠 Why Is This Important?
+
+Large language models (LLMs):
+
+Can hallucinate
+
+Don’t remember specific PDFs
+
+Don’t have access to your private documents
+
+So we build RAG systems to:
+
+✔ Connect LLMs with external documents
+✔ Make answers grounded in real text
+✔ Reduce hallucination
+✔ Enable document-based QA
+
+🏗 What Your Project Specifically Does
+
+Your system:
+
+Loads a research paper (PDF)
+
+Cleans the text
+
+Splits it into meaningful chunks
+
+Converts chunks into semantic embeddings
+
+Stores them in a FAISS vector database
+
+When user asks a question:
+
+It converts the query into an embedding
+
+Finds the most relevant chunks
+
+Sends that context to the LLM
+
+The LLM generates an answer based on retrieved context
+
+📌 Academic Purpose
+
+This project shows you understand:
+
+Text preprocessing
+
+Semantic embeddings
+
+Vector similarity search
+
+FAISS indexing
+
+Prompt engineering
+
+Context-aware generation
+
+Modular AI system design
+
+This is not just coding — it’s AI system design.
+
+🎓 If Examiner Asks:
